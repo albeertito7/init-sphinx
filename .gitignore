@@ -2,4 +2,5 @@
 /.venv/
 
 /* sphinx build */
-docs/build/
+docs/build/*
+!docs/build/.gitkeep
