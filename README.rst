@@ -30,7 +30,7 @@ Clone the repository on your local machine, and let's reproduce the python envir
     $ source .venv/bin/activate # if using windows, just type `.venv/bin/activate.bat` in the command-prompt
     (.venv) $ pip install -r requirements.txt
 
-In this way, all the dependencies specified in the `requirements.txt` will be added into the new python environment.
+In this way, all the dependencies specified in the *requirements.txt* to work with will be added into the new python environment.
 
 
 Project structure
@@ -71,6 +71,8 @@ or leverage the convenience script as follows:
     cd docs
     make html
 
+.. note::
+    This are examples for HTML, but Sphinx supports a variety of formats including PDF, EPUB and `more <https://www.sphinx-doc.org/en/master/usage/builders/index.html#builders>`__.
 
 Building your documentation in other formats
 --------------------------------------------
