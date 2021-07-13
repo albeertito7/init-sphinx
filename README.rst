@@ -24,7 +24,7 @@ Clonning the repo
 
 Clone the repository on your local machine, and let's reproduce the python environment by
 
-.. codeblock:: bash
+.. code-block:: bash
 
     $ python -m venv .venv
     $ source .venv/bin/activate # if using windows, just type `.venv/bin/activate.bat` in the command-prompt
@@ -60,13 +60,13 @@ Rendering the documentation
 
 You may use the `sphinx-build` command:
 
-.. codeblock:: bash
+.. code-block:: bash
 
     (.venv) $ sphinx-build -b html docs/source/ docs/build/html
 
 or leverage the convenience script as follows:
 
-.. codeblock:: bash
+.. code-block:: bash
 
     cd docs
     make html
