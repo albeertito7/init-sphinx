@@ -72,7 +72,9 @@ or leverage the convenience script as follows:
     make html
 
 .. note::
+
     This are examples for HTML, but Sphinx supports a variety of formats including PDF, EPUB and `more <https://www.sphinx-doc.org/en/master/usage/builders/index.html#builders>`__.
+
 
 Building your documentation in other formats
 --------------------------------------------
