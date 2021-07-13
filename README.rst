@@ -48,3 +48,7 @@ But, Sphinx allows you to assemble a project from different files.
 And remember to add a `toctree` directive at the end of `index.rst` including the new files.
 
 > Note: documents outisde `toctree` will result in **WARNING**.
+
+## Where to go from here
+This are the first steps to create a documentation project with Sphinx.
+To continue learning more, check out the rest of the documentation.
