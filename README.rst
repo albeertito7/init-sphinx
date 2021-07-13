@@ -1,24 +1,20 @@
 Sphinx documentation
 ====================
 
+Project structure
+-----------------
 
-Lumache
-=======
+.. code-block:: raw
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers that
-creates recipes mixing random ingredients.
-
-## Project structure
-
-docs
-├── build
-├── make.bat
-├── Makefile
-└── source
-   ├── conf.py
-   ├── index.rst
-   ├── _static
-   └── _templates
+    docs
+    ├── build
+    ├── make.bat
+    ├── Makefile
+    └── source
+    ├── conf.py
+    ├── index.rst
+    ├── _static
+    └── _templates
 
 /build -> an empty directory (for now) that will hold the rendered documentation
 
