@@ -19,18 +19,31 @@ Table of contents
 Getting started
 ---------------
 
-Clonning the repo
+Cloning the repo
 ^^^^^^^^^^^^^^^^^
 
-Clone the repository on your local machine, and let's reproduce the python environment by
+Clone the repository on your local machine, and create your own python environment
+
+.. _envcreation::
 
 .. code-block:: bash
 
     $ python -m venv .venv
     $ source .venv/bin/activate # if using windows, just type `.venv/bin/activate.bat` in the command-prompt
+
+Then, let's get all the dependencies
+
+.. code-block:: bash
+
     (.venv) $ pip install -r requirements.txt
 
 In this way, all the dependencies specified in the *requirements.txt* to work with will be added into the new python environment.
+
+
+From scratch
+^^^^^^^^^^^^
+
+If you prefer to create your own project from scratch, just in a new directory, create a file called `README.rst` and generate a python virtual environment installing the sphinx just like :ref:`above <envcreation>`.
 
 
 Project structure
@@ -79,15 +92,12 @@ Visualization
 Now you may run on your browser the *docs/build/html/index.html* to visualize the project documentation.
 
 
-Building your documentation in other formats
---------------------------------------------
-
-Sphinx supports a variety of formats apart from HTML, including PDF, EPUB, and more.
 
 Sphinx customization
 --------------------
 
 By using core Sphinx: extensions and themes.
+
 
 Using a third-party HTML theme
 ------------------------------
@@ -110,10 +120,10 @@ The file `index.rst` is the `root document` serving as a welcome page and contai
 But, Sphinx allows you to assemble a project from different files.
 And remember to add a `toctree` directive at the end of `index.rst` including the new files.
 
-> Note: documents outisde `toctree` will result in **WARNING**.
+**Note:** documents outisde `toctree` will result in **WARNING**.
 
 Where to go from here
 ---------------------
 
 This are the first steps to create a documentation project with Sphinx.
-To continue learning more, check out the rest of the documentation.
+To continue learning more, check out the `rest of the documentation <https://www.sphinx-doc.org/en/master/contents.html#contents>`__.
