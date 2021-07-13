@@ -1,7 +1,7 @@
 Sphinx documentation
 ====================
 
-.. contents:: :backlinks: none :depth: 2 :class: title
+.. contents:: :backlinks: none
     Table of contents
 
 Project structure
