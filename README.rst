@@ -1,7 +1,7 @@
 Sphinx documentation
 ====================
 
-This an initiation project about the Sphinx python documentation generator mainly influenced by the following `tutorial <https://www.sphinx-doc.org/en/master/tutorial/index.html>`__.
+This an initiation project about the Sphinx python documentation generatorm, being majorly influenced by the *getting-started* beginners `tutorial <https://www.sphinx-doc.org/en/master/tutorial/index.html>`__.
 
 The aim is to acquire the fundamentals of how projects are created and structured and to give a quick taste of what Sphinx is and how you might use it to those willing to learn.
 
