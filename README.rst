@@ -24,7 +24,7 @@ Cloning the repo
 
 Clone the repository on your local machine, and create your own python environment
 
-.. _envcreation::
+.. _above:
 
 .. code-block:: bash
 
@@ -43,7 +43,13 @@ In this way, all the dependencies specified in the *requirements.txt* to work wi
 From scratch
 ^^^^^^^^^^^^
 
-If you prefer to create your own project from scratch, just in a new directory, create a file called `README.rst` and generate a python virtual environment installing the sphinx just like :ref:`above <envcreation>`__.
+If you prefer to create your own project from scratch, just in a new directory, create a file called `README.rst` and generate a python virtual environment just like :ref:`above`.
+
+Then you should install the python module *sphinx* as follows:
+
+.. code-block:: bash
+
+    (.venv) $ pip install sphinx
 
 
 Project structure
