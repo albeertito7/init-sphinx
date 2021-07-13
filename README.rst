@@ -1,6 +1,9 @@
 Sphinx documentation
 ====================
 
+.. contents::
+    Table of contents
+
 Project structure
 -----------------
 
