@@ -17,6 +17,12 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
 
 Check out the :doc:`usage` section for further information, including how to :ref:`install <installation>` the project.
 
+..
+   the "install" refers to the text link, and
+   the "<installation>" part refers to the actual label we want to add a cross-reference to.
+   if not included an explicit title, hence using ":ref:`installation`, the sectio title will be used.
+   Both the ":doc:" and ":ref:" roles will be rendered as hyperlinks in HTML documentation.
+
 .. note::
    This project is under active development.
 
