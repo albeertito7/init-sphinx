@@ -73,6 +73,11 @@ or leverage the convenience script as follows:
 
 **Note** this are examples for HTML, but Sphinx supports a variety of formats including PDF, EPUB and `more <https://www.sphinx-doc.org/en/master/usage/builders/index.html#builders>`__.
 
+Visualization
+-------------
+
+Now you may run on your browser the *docs/build/html/index.html* to visualize the project documentation.
+
 
 Building your documentation in other formats
 --------------------------------------------
