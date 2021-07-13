@@ -1,4 +1,8 @@
-.. Lumache documentation master file, created by
+.. 
+   .rst means reStructuredText markup language
+
+.. 
+   Lumache documentation master file, created by
    sphinx-quickstart on Tue Jul 13 16:20:13 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,15 +10,10 @@
 Welcome to Lumache's documentation!
 ===================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+**Lumache** (/lu'make/) is a Python library for cooks and food lovers that
+creates recipes mixing random ingredients.  It pulls data from the `Open Food
+Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
+*intuitive* API.
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. note::
+   This project is under active development.
