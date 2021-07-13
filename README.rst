@@ -15,34 +15,23 @@ Table of contents
     :depth: 2
     :class: title
 
+
 Getting started
 ---------------
 
-From scratch
-^^^^^^^^^^^^^^^^^^^^^^^
+Clonning the repo
+^^^^^^^^^^^^^^^^^
 
-In a new directory, create a file called `README.rst`, and generate a python virtual environment installing the sphinx module by
+Clone the repository on your local machine, and let's reproduce the python environment by
 
-.. code-block:: bash
+.. codeblock:: bash
 
     $ python -m venv .venv
     $ source .venv/bin/activate # if using windows, just type `.venv/bin/activate.bat` in the command-prompt
-    (.venv) $ pip install sphinx
+    (.venv) $ pip install -r requirements.txt
 
+In this way, all the dependencies specified in the `requirements.txt` will be added into the new python environment.
 
-Creating the documentation
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Easy as:
-
-.. code-block:: bash
-
-    (.venv) $ sphinx-quickstart docs
-
-This will present you a series of questions relatives to the project and will generate the project strcuture you may see :ref:`here <projectstructure>`.
-
-
-.. _projectstructure:
 
 Project structure
 -----------------
@@ -64,6 +53,23 @@ Project structure
     ├── .gitignore
     ├── README.rst                       <- The top-level README for developers using this project.
     └── requirements.txt                 <- Python virtual environment requirements generated with `pip freeze > requirements.txt`
+
+
+Rendering the documentation
+---------------------------
+
+You may use the `sphinx-build` command:
+
+.. codeblock:: bash
+
+    (.venv) $ sphinx-build -b html docs/source/ docs/build/html
+
+or leverage the convenience script as follows:
+
+.. codeblock:: bash
+
+    cd docs
+    make html
 
 
 Building your documentation in other formats
