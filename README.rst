@@ -7,7 +7,10 @@ The aim is to acquire the fundamentals of how projects are created and structure
 
 Besides, feel free to leave `feedback <https://github.com/albeertito7/init-sphinx/issues/new>`__ if any improvement, or `email <mailto:albertperezdatsira@gmail.com>`__ me for questions.
 
-.. contents:: Table of contents
+Table of contents
+-----------------
+
+.. contents::
     :backlinks: none
     :depth: 2
     :class: title
