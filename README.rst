@@ -6,15 +6,20 @@ Project structure
 
 .. code-block:: raw
 
-    docs
-    ├── build
-    ├── make.bat
-    ├── Makefile
-    └── source
-    ├── conf.py
-    ├── index.rst
-    ├── _static
-    └── _templates
+    init-sphinx
+    ├── docs
+    |    ├── make.bat
+    |    ├── Makefile
+    |    ├── build                       <- Empty directory (for now) that will hold the rendered documentation.
+    |    └── source
+    |        ├── conf.py                 <- Configuration Sphinx project. Contains some configuration keys.
+    |        ├── index.rst               <- The root document of the project serving as a welcome page.
+    |        ├── _static
+    |        └── _templates
+    ├── .gitignore
+    ├── README.rst                       <- The top-level README for developers using this project.
+    └── requirements.txt                 <- Python virtual environment requirements generated with :bash:`pip freeze > requirements.txt`
+
 
 /build -> an empty directory (for now) that will hold the rendered documentation
 
