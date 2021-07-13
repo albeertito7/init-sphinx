@@ -14,8 +14,8 @@ Project structure
     |    └── source
     |        ├── conf.py                 <- Configuration Sphinx project. Contains some configuration keys.
     |        ├── index.rst               <- The root document of the project serving as a welcome page.
-    |        ├── _static
-    |        └── _templates
+    |        ├── _static                 <- For custom stylesheets and other static files.
+    |        └── _templates              <- For custom HTML templates. 
     ├── .gitignore
     ├── README.rst                       <- The top-level README for developers using this project.
     └── requirements.txt                 <- Python virtual environment requirements generated with `pip freeze > requirements.txt`
