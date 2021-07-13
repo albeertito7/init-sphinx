@@ -18,7 +18,7 @@ Project structure
     |        └── _templates
     ├── .gitignore
     ├── README.rst                       <- The top-level README for developers using this project.
-    └── requirements.txt                 <- Python virtual environment requirements generated with :bash:`pip freeze > requirements.txt`
+    └── requirements.txt                 <- Python virtual environment requirements generated with `pip freeze > requirements.txt`
 
 
 /build -> an empty directory (for now) that will hold the rendered documentation
