@@ -1,11 +1,10 @@
 Sphinx documentation
 ====================
 
-.. contents::
+.. contents:: Table of contents
     :backlinks: none
     :depth: 2
     :class: section
-    Table of contents
 
 Project structure
 -----------------
