@@ -26,7 +26,7 @@ In a new directory, create a file called `README.rst`, and generate a python vir
 .. code-block:: bash
 
     $ python -m venv .venv
-    $ source .venv/bin/activate
+    $ source .venv/bin/activate # if using windows, just type `.venv/bin/activate.bat` in the command-prompt
     (.venv) $ pip install sphinx
 
 
