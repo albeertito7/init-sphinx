@@ -1,6 +1,10 @@
 Sphinx documentation
 ====================
 
+This an initiation project about the Sphinx python documentation generator.
+The aim is to learn the fundamentals of how projects are created and structured.
+Besides, feel free to leave `feedback <link https://github.com/albeertito7/init-sphinx/issues/new>`.
+
 .. contents:: Table of contents
     :backlinks: none
     :depth: 2
