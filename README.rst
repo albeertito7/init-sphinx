@@ -1,7 +1,7 @@
 Sphinx documentation
 ====================
 
-This an initiation project about the Sphinx python documentation generatorm, being majorly influenced by the *getting-started* beginners `tutorial <https://www.sphinx-doc.org/en/master/tutorial/index.html>`__.
+This an initiation project about the Sphinx python documentation generator, being majorly influenced by the *getting-started* beginners `tutorial <https://www.sphinx-doc.org/en/master/tutorial/index.html>`__.
 
 The aim is to acquire the fundamentals of how projects are created and structured and to give a quick taste of what Sphinx is and how you might use it to those willing to learn.
 
@@ -14,6 +14,21 @@ Table of contents
     :backlinks: none
     :depth: 2
     :class: title
+
+Getting started
+---------------
+
+From scratch
+^^^^^^^^^^^^^^^^^^^^^^^
+
+In a new directory, create a file called `README.rst`, and generate a python virtual environment installing the sphinx module by
+
+.. code-block:: bash
+
+    $ python -m venv .venv
+    $ source .venv/bin/activate
+    (.venv) $ pip install sphinx
+
 
 Project structure
 -----------------
