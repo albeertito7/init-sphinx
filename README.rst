@@ -4,7 +4,8 @@ Sphinx documentation
 .. contents::
     :backlinks: none
     :depth: 2
-    :class: title
+    :class: section
+    Table of contents
 
 Project structure
 -----------------
