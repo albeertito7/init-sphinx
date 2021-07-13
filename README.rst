@@ -54,11 +54,13 @@ Then you should install the python module *sphinx* as follows:
 
 Finally, for creating the documentation is easy as:
 
-.. code-block: bash
+.. code-block:: bash
 
     (.venv) $ sphinx-quickstart docs
 
+
 This will present you a series of questions relatives to the project and will generate the project strucuture you may see in the corresponding section.
+
 
 Project structure
 -----------------
