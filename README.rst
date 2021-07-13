@@ -43,7 +43,7 @@ In this way, all the dependencies specified in the *requirements.txt* to work wi
 From scratch
 ^^^^^^^^^^^^
 
-If you prefer to create your own project from scratch, just in a new directory, create a file called `README.rst` and generate a python virtual environment installing the sphinx just like :ref:`above <envcreation>`.
+If you prefer to create your own project from scratch, just in a new directory, create a file called `README.rst` and generate a python virtual environment installing the sphinx just like :ref:`above <envcreation>`__.
 
 
 Project structure
