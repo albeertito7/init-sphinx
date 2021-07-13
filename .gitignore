@@ -1,2 +1,5 @@
-// python virtual environment
+/* python virtual environment */
 /.venv/
+
+/* sphinx build */
+docs/build/
