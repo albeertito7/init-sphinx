@@ -30,6 +30,20 @@ In a new directory, create a file called `README.rst`, and generate a python vir
     (.venv) $ pip install sphinx
 
 
+Creating the documentation
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Easy as:
+
+.. code-block:: bash
+
+    (.venv) $ sphinx-quickstart docs
+
+This will present you a series of questions relatives to the project and will generate the project strcuture you may see :ref:`here <projectstructure>`.
+
+
+.. _projectstructure:
+
 Project structure
 -----------------
 
