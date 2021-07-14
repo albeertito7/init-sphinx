@@ -19,19 +19,19 @@ Table of contents
 Getting started
 ---------------
 
-Cloning the repo
-^^^^^^^^^^^^^^^^^
+Cloning the repository
+^^^^^^^^^^^^^^^^^^^^^^
 
-Clone the repository on your local machine, and create your own python environment
+Once you get the repository on your local machine, let's create your own python environment
 
 .. _above:
 
 .. code-block:: bash
 
     $ python -m venv .venv
-    $ source .venv/bin/activate # if using windows, just type `.venv/bin/activate.bat` in the command-prompt
+    $ source .venv/bin/activate # if using Windows, just type `.venv/bin/activate.bat` in the command-prompt
 
-Then, let's get all the dependencies
+Then, you should get all the dependencies via
 
 .. code-block:: bash
 
