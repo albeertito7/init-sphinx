@@ -43,7 +43,7 @@ In this way, all the dependencies specified in the *requirements.txt* to work wi
 From scratch
 ^^^^^^^^^^^^
 
-If you prefer to create your own project from scratch, just in a new directory, create a file called `README.rst` and generate a python virtual environment just like above.
+If you prefer to create your own project from scratch, just in a new directory, create a file called *README.rst* and generate a python virtual environment just like above.
 
 Then you should install the python module *sphinx* as follows:
 
@@ -87,7 +87,7 @@ Project structure
 Rendering the documentation
 ---------------------------
 
-You may use the `sphinx-build` command:
+You may use the *sphinx-build* command:
 
 .. code-block:: bash
 
@@ -108,12 +108,10 @@ Visualization
 Now you may run on your browser the *docs/build/html/index.html* to visualize the project documentation.
 
 
-
 Sphinx customization
 --------------------
 
 By using core Sphinx: extensions and themes.
-
 
 Using a third-party HTML theme
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -121,22 +119,22 @@ Using a third-party HTML theme
 To customize the appearence of your documentation.
 Sphinx has several built-in themes, and there are also third-party ones.
 
-For example, to use the `Furo` theme you will need to install it in your python environment like this:
+For example, to use the **Furo** theme you will need to install it in your python environment like this:
 
 .. code-block:: bash
 
     $pip install furo
 
-And then locate the `html_theme`on your `conf.py` to set it up.
+And then locate the **html_theme** on your *conf.py* to set it up.
 
 Multiple pages
 ^^^^^^^^^^^^^^
 
-The file `index.rst` is the `root document` serving as a welcome page and contain the root of the "table of contents tree" (or toctree).
+The file *index.rst* is the **root document** serving as a welcome page and contain the root of the "table of contents tree" (or toctree).
 But, Sphinx allows you to assemble a project from different files.
-And remember to add a `toctree` directive at the end of `index.rst` including the new files.
+And remember to add a *toctree* directive at the end of *index.rst* including the new files.
 
-**Note:** documents outisde `toctree` will result in **WARNING**.
+**Note:** documents outisde *toctree* will result in **WARNING**.
 
 Where to go from here
 ---------------------
