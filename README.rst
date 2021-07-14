@@ -69,19 +69,19 @@ Project structure
 
     init-sphinx
     ├── docs
-    |   ├── build                    <- Empty directory (for now) that will hold the rendered documentation.
+    |   ├── build                <- Empty directory (for now) that will hold the rendered documentation.
     |   ├── source
-    |   |   ├── conf.py              <- Configuration Sphinx project. Contains some configuration keys.
-    |   |   ├── index.rst            <- The root document of the project serving as a welcome page.
-    |   |   ├── _static              <- For custom stylesheets and other static files.
-    |   |   └── _templates           <- For custom HTML templates.
+    |   |   ├── conf.py          <- Configuration Sphinx project. Contains some configuration keys.
+    |   |   ├── index.rst        <- The root document of the project serving as a welcome page.
+    |   |   ├── _static          <- For custom stylesheets and other static files.
+    |   |   └── _templates       <- For custom HTML templates.
     |   |
-    |   ├── Makefile                 <- Makefile and make.bat are convenience scripts to simplify some common Sphinx operations, such as rendering.
+    |   ├── Makefile             <- Makefile and make.bat are convenience scripts to simplify some common Sphinx operations, such as rendering.
     |   └── make.bat
     |
     ├── .gitignore
-    ├── README.rst                   <- The top-level README for developers using this project.
-    └── requirements.txt             <- Python virtual environment requirements generated with `pip freeze > requirements.txt`
+    ├── README.rst               <- The top-level README for developers using this project.
+    └── requirements.txt         <- Python virtual environment requirements generated with `pip freeze > requirements.txt`
 
 
 Rendering the documentation
