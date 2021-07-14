@@ -5,7 +5,7 @@ This an initiation project about the Sphinx python documentation generator, bein
 
 The aim is to acquire the fundamentals of how projects are created and structured and to give a quick taste of what Sphinx is and how you might use it to those willing to learn.
 
-Besides, feel free to leave `feedback <https://github.com/albeertito7/init-sphinx/issues/new>`__ if any improvement, or `email <mailto:albertperezdatsira@gmail.com>`__ me for questions.
+Besides, feel free to leave `feedback <https://github.com/albeertito7/init-sphinx/issues/new>`__ if any improvement, or `email <mailto:albertperezdatsira@gmail.com>`__ me with questions.
 
 Table of contents
 -----------------
