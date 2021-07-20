@@ -123,7 +123,7 @@ For example, to use the **Furo** theme you will need to install it in your pytho
 
 .. code-block:: bash
 
-    $pip install furo
+    $ pip install furo
 
 And then locate the **html_theme** on your *conf.py* to set it up.
 
