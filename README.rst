@@ -5,7 +5,7 @@ This an initiation project about the Sphinx python documentation generator, bein
 
 The aim is to acquire the fundamentals of how projects are created and structured and to give a quick taste of what Sphinx is and how you might use it to those willing to learn.
 
-Besides, feel free to leave `feedback <https://github.com/albeertito7/init-sphinx/issues/new>`__ if any improvement, or `email <mailto:albertperezdatsira@gmail.com>`__ me for questions.
+Besides, feel free to leave `feedback <https://github.com/albeertito7/init-sphinx/issues/new>`__ if any improvement, or `email <mailto:albertperezdatsira@gmail.com>`__ me with questions.
 
 Table of contents
 -----------------
@@ -100,12 +100,14 @@ or leverage the convenience script as follows:
     cd docs
     make html
 
-**Note** this are examples for HTML, but Sphinx supports a variety of formats including PDF, EPUB and `more <https://www.sphinx-doc.org/en/master/usage/builders/index.html#builders>`__.
+**Note** these are examples for HTML, but Sphinx supports a variety of formats including PDF, EPUB and `more <https://www.sphinx-doc.org/en/master/usage/builders/index.html#builders>`__.
 
 Visualization
 -------------
 
-Now you may run on your browser the *docs/build/html/index.html* to visualize the project documentation.
+Run on your browser the *docs/build/html/index.html* to visualize the project documentation.
+
+**Note** this is using the *build/html* directory, but if any other format is rendered you may find the *index.html* in its corresponding folder.
 
 
 Sphinx customization
